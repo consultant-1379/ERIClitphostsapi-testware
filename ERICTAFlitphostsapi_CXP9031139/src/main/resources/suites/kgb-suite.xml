@@ -1,0 +1,12 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="kgb-suite">
+	<test name="LITPhostsapiKGBSuite" preserve-order="true">
+		<classes>
+			<class name="com.ericsson.nms.litp.taf.test.cases.LITPhostsapiTestRunner">
+			  <methods>
+			    <include name="upgradeERIClitphostsapiRPM"/>
+			  </methods> 
+			</class>
+		</classes>
+	</test>
+</suite>
